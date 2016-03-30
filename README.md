@@ -4,7 +4,7 @@ A little piece of code that evaluates 7 card poker hand.
 Hi, I am not really a programmer, just toying with poker software. Here's the thing.
 Inspired by famous TwoPlusTwo thread and Cactus Kev web page I have tried to make my own evaluator.
 Yet again inspired by Ace_eval by ashelly i've tried to make source code as short as possible and finally squeezed it into 517 bytes:)
-But it comes with a binary file of 705KiB:/. Funny moment is that obfuscated code works just a tiny bit faster. 
+But it comes with a binary file of 705KiB :/ Funny moment is that obfuscated code works just a tiny bit faster. 
 Is it fast? Well, it's not too slow, i guess. It does enumerating test with all 134M combinations in 0.7 sec compared to 0.28 for RayW's code and 1.44 for Steve Brecher's. When it comes to random hands it does 4M evaluations in 0.61 sec, 0.56 for Steve Brecher's and 1.74 for RayW's (cache misses are merciless).
 
 How to use
